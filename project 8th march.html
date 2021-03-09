@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html style="font-family: arial;">
+    <head>
+        <title>
+            Project
+        </title>
+        <style>
+         .split {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            top: 0;
+            padding-top: 20px;
+          }
+          .left {
+  left: 0; background-image: url('umbrellas.jpg'); background-size: cover;
+}
+
+.right {
+  right: 0;
+  background-color: crimson
+}
+button{background-color: cornsilk; padding: 10px; color: black; text-align: center; border: cornsilk;}
+      </style>
+    </head>
+    <body>
+        <div class="split left">
+            <div style="text-align: center; color: cornsilk;">
+              <h1 style="font-size: 75px;">Welcome to Your Project Class</h1>
+              <p style="font-size: 30px;">Try out the concepts learned in the class</p>
+              <button style="width: 100px; margin-top: 20px; margin-left: 500px;" >Learn More</button>
+            </div>
+        </div>
+          <form action="results.html" method="GET">
+          <div class="split right" >
+            <div style="margin-left: 100px; margin-right: 100px;" >
+              <fieldset style="padding: 20px; width: 300px; height: 500px;">
+                  <legend style="color: cornsilk;">
+                      Lead Capture
+                  </legend>
+                  <label> Name </label>
+                  <br>
+                  <input type="text">
+                  <br>
+                  <br>
+                  <label>Email</label>
+                  <br>
+                  <input type="text">
+                  <br>
+                  <br>
+                  <label>Country</label>
+                  <br>
+                  <select>
+                      <option>India</option>
+                      <option>USA</option>
+                      <option>UK</option>
+                  </select>
+                  <br>
+                  <br>
+                  <label>Male</label>
+                  <input type="radio">
+                  <label>Female</label>
+                  <input type="radio">
+                  <br>
+                  <br>
+                  <button style="width: 100px; ">Submit</button>
+                  </form>
+              </fieldset>
+            </div>
+          </div>
+    </body>
+</html>
